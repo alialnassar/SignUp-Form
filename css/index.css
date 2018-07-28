@@ -1,0 +1,157 @@
+body{
+
+    height: 100vh;
+}
+.container-fluid{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.no-padding-h{
+
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.no-padding-r{
+
+    padding-right: 0px;
+}
+
+.no-padding-l{
+
+    padding-left: 0px;
+}
+
+.tiny-padding-r{
+
+    padding-right: 5px;
+}
+
+.tiny-padding-l{
+
+    padding-left: 5px;
+}
+
+.container-fluid{
+    
+    background-color: #3c4c55;
+}
+
+.grid2{
+    
+    background-color: #3b5998;
+    padding: 1rem 10px;
+}
+
+.grid2 p{
+
+    margin: auto;
+}
+
+.grid3{
+
+    background-color: #55acee;
+    padding: 1rem 10px;
+}
+
+.grid3 p{
+
+    margin: auto;
+}
+
+.grid1 p{
+    
+    color: #ffffff;
+    text-align: center;
+}
+
+.grid4{
+
+    padding: 1.2rem 10px;
+}
+
+.grid4 p{
+    
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.grid5 .form-group{
+
+    position: relative;
+}
+
+.grid5 input{
+    
+    width: 100%;
+    padding: 12px 10px 12px 15px;
+}
+
+.grid5 input:focus{
+
+    border-radius: 0px;
+    outline: 0;
+}
+
+.grid5 input:focus + .focus{
+
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #40a46f;
+}
+
+.grid5 .no-padding-r input:focus + .focus{
+
+    left: 5px;
+}
+
+.grid5 p{
+    
+    color: #fff;
+}
+
+.grid5 span{
+    
+    color: #1c8db0;
+    font-weight: bold;
+}
+
+.grid7{
+    
+    background-color: #40a46f;
+    text-align: center;
+    padding: 12px 5px;
+}
+
+.grid7 button{
+    
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 0px;
+}
+
+.terms{
+
+    padding: 8px 5px;
+}
+
+@media(max-width: 767px){
+
+    .grid5 .tiny-padding-r{
+
+        padding-right: 0px;
+    }
+
+    .grid5 .tiny-padding-l{
+
+        padding-left: 0px;
+    }
+}
